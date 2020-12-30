@@ -19,22 +19,22 @@ async def on_ready():
 async def on_ready():
     await client.change_presence(status=discord.Status.offline)
     game = discord.Game("시작하는 중...")
-    await client.change_presence(status=discord.Status.online, activity=game)
+    await client.change_presence(status=discord.Status.dnd, activity=game)
     while True:
         game = discord.Game("Made by 우정#9444")
-        await client.change_presence(status=discord.Status.online, activity=game)
+        await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
         game = discord.Game("Powerd by PYTHON")
-        await client.change_presence(status=discord.Status.online, activity=game)
+        await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
         game = discord.Game("24시간 풀 가동중...")
-        await client.change_presence(status=discord.Status.online, activity=game)
+        await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
         game = discord.Game("공식주소: discord.gg/nEzPCjd")
-        await client.change_presence(status=discord.Status.online, activity=game)
+        await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
         game = discord.Game("서버문의: 우정#9444 ")
-        await client.change_presence(status=discord.Status.online, activity=game)
+        await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
 # 디스코드에는 현재 본인이 어떤 게임을 플레이하는지 보여주는 기능이 있습니다.
 # 이 기능을 사용하여 봇의 상태를 간단하게 출력해줄 수 있습니다.
