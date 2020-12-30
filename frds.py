@@ -98,7 +98,7 @@ async def on_message(message):
     if message.content.startswith('디스코드'):
         channel = message.channel
         await channel.send('2015년 5월 출시된 채팅 메신저 프로그램!')
-    if message.content.startswith('?'):
+    if message.content.startswith('??'):
         channel = message.channel
         await channel.send('??')
     if message.content.startswith('처벌해'):
@@ -188,7 +188,7 @@ async def on_message(message):
     if message.content.startswith('님'):
         channel = message.channel
         await channel.send('왜부름?')
-    if message.content.startswith(';;'):
+    if message.content.startswith(';;;'):
         channel = message.channel
         await channel.send('땀 닦아줄게')
     if message.content.startswith('ㅠㅠ'):
