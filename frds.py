@@ -62,9 +62,6 @@ async def on_message(message):
     if message.content.startswith('우정'):
         channel = message.channel
         await channel.send('Friendship')
-    if message.content.startswith('공식주소'):
-        channel = message.channel
-        await channel.send('discord.gg/nEzPCjd')
     if message.content.startswith('머리부터'):
         channel = message.channel
         await channel.send('발끝까지')
