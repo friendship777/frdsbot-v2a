@@ -246,6 +246,13 @@ async def on_message(message):
         await channel.send('떴다~ 떴다~ 비행기~ 🎶')
         await channel.send('날아라~ 날아라~ 🎶')
         await channel.send('높이~ 높이~ 날아라~ 우리 비행기~ 🎶')
+    if message.content.startswith('나 생일이야'):
+        channel = message.channel
+        await channel.send('생일 축하해~🎉')
+        await channel.send('맛있는거 많이먹고 살쪄라~🍰')
+    if message.content.startswith('새해'):
+        channel = message.channel
+        await channel.send('***Happy new year~~***📅')
         
 access_token = os.environ['BOT_TOKEN']        
 client.run(access_token)
