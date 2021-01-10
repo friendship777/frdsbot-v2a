@@ -33,7 +33,7 @@ async def on_ready():
         game = discord.Game("서버유저 관리")
         await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
-        game = discord.Game("https://discord.me/frdshub")
+        game = discord.Game("https://discord.gg/nEzPCjd")
         await client.change_presence(status=discord.Status.dnd, activity=game)
         await asyncio.sleep(3)
         game = discord.Game("서버문의: 우정#9444 ")
